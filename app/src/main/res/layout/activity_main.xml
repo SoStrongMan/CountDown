@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.example.countdown.CountDownView
+        android:id="@+id/cd_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_start_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/shape_rec_four_cor_gray"
+        android:gravity="center"
+        android:text="@string/btn_start" />
+
+    <TextView
+        android:id="@+id/tv_pause_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/shape_rec_four_cor_gray"
+        android:gravity="center"
+        android:text="@string/btn_pause" />
+
+    <TextView
+        android:id="@+id/tv_stop_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/shape_rec_four_cor_gray"
+        android:gravity="center"
+        android:text="@string/btn_stop" />
+</LinearLayout>
